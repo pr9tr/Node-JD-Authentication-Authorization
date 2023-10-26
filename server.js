@@ -49,7 +49,7 @@ db.mongoose
           name: "moderator"
         });
         mod_Role.save(mod_Role).then(data => {
-          console.log("added 'moderator' to roles collection");
+          console.log("added 'moderator' to roles collection.");
         }).catch(err => {
           console.log("error while creating Role: moderator", err);
         });
