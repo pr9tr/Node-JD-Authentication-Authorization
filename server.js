@@ -51,7 +51,7 @@ db.mongoose
         mod_Role.save(mod_Role).then(data => {
           console.log("added 'moderator' to roles collection.");
         }).catch(err => {
-          console.log("error while creating Role: moderator", err);
+          console.log("error while creating Role: moderator.", err);
         });
   
         const admin_Role = new Role({
